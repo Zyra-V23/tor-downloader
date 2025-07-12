@@ -1,6 +1,14 @@
 # Tor Downloader Rust - Descargador Multi-hilo de Sitios .onion
 
-Un descargador recursivo multi-hilo para sitios .onion con soporte completo para Tor, interfaz TUI opcional y capacidades de monitoreo en tiempo real.
+<div align="center">
+  
+![Tor Downloader](./onion-animation.svg)
+
+*Un descargador recursivo multi-hilo para sitios .onion con soporte completo para Tor, interfaz TUI opcional y capacidades de monitoreo en tiempo real.*
+
+---
+
+</div>
 
 ## 📋 Prerequisitos
 
