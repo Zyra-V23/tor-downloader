@@ -1,0 +1,4 @@
+SocksPort 9050
+DataDirectory "C:/Users/Ardilla Casposa/Desktop/sitiojulian/tor-data"
+Log notice stdout
+RunAsDaemon 0
