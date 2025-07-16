@@ -1,69 +1,38 @@
-# Onion Downloader - Git Ignore
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
 
-# Download directory and content
+# Tor data
+tor-data/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
 downloaded_site/
 downloads/
+temp/
 
-# Configuration files (may contain sensitive URLs)
-download_config.conf
-config.conf
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Log files
+# Logs
 *.log
-download.log
-error.log
+logs/
 
 # Temporary files
 *.tmp
-*.temp
-/tmp/
-.tmp/
-
-# Downloaded content
-*.onion/
-downloaded_*/
-
-# Reports
-download_report_*.txt
-*_report_*.txt
-
-# Semaphore files
-/tmp/onion_download_semaphore_*
-
-# System files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
-
-# IDE files
-.vscode/
-.idea/
-*.sublime-*
-
-# Backup files
-*.bak
-*.backup
-*.orig
-
-# OS generated files
-.directory
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Test files
-test_*
-debug_*
-
-# Personal notes
-notes.txt
-notes.md
-personal_*
-
-# Windows specific
-desktop.ini
-*.lnk 
+*.temp 
